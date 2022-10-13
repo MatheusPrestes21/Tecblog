@@ -1,0 +1,143 @@
+/*Limpar formataçôes padrâo*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #eff6fa;
+}
+
+/*
+***Layout***
+*/
+
+#area-cabecalho {
+    background-color: #758566;
+    padding: 15px;
+    text-align: center;
+}
+
+#area-logo, #area-menu {
+    padding: 10px;
+}
+
+#area-principal {
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+}
+#area-postagens, #area-lateral{
+    
+}
+
+#area-postagens {
+    width: 670px;
+    float: left;
+}
+
+#area-lateral {
+    width: 240px;
+    float: right;
+}
+
+#area-lateral {
+    background: white;
+    margin-bottom: 20px;
+}
+.postagem {
+    padding: 15px;
+    margin-bottom: 15px;
+    background: #fff;
+}
+
+.postagem-lateral {
+    padding: 5px;
+    font-size: 0.9em;
+    border-bottom: 1px solid #f4f4f4;
+}
+
+#rodape {
+    background: #ccc;
+    clear: both;
+    text-align: center;
+    padding: 10px;
+}
+.categoria-lateral {
+    color: #111310;
+}
+/*
+***Formataçôes gerais***
+*/
+
+h1 {
+    color: #111310;
+    font-size: 2.5em;
+}
+h2 {
+    color: #111310;
+}
+
+h3 {
+    padding: 5px;
+    background: #d1d1d1;
+    color: #111310;
+    font-size: 1em;
+    
+}
+
+.branco {
+    color: #99ADB7;
+}
+
+.data-postagem {
+    display: block;
+    font-size: 0.8em;
+    border-bottom: 1px solid #f4f4f4;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+/*
+***Formataçôes menu**
+*/
+a {
+    text-decoration: none;
+}
+#area-cabecalho a:link, a:visited {
+    color: #e4f6ff;
+    padding: 8px 12px;
+}
+
+#area-cabecalho a:hover {
+    color: #758566;
+    background: #d8ecf7;
+    border-radius: 5px;
+}
+
+.postagem a {
+    font-size: 14px;
+    margin-left: -13px;
+}
+.postagem a:link, a:visited {
+    color: #111310;
+    padding: 2px 12px;
+}
+
+.postagem a:hover {
+    color: #111310;
+    background: #758566;
+    border-radius: 5px;
+}
+
+#area-lateral a:link, a:visited {
+    color: #111310;
+    padding: 1px 5px;
+
+}
+
+#area-lateral a:hover {
+    background: #758566;
+    border-radius: 5px;
+}
